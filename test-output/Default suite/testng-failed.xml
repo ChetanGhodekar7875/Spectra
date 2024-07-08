@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="In.Spectra.Groups.AddUsersIntoTheGroup_002_Test">
+        <methods>
+          <include name="addUsers"/>
+          <include name="login"/>
+          <include name="logout"/>
+          <include name="launchApplication"/>
+          <include name="closeApplication"/>
+        </methods>
+      </class> <!-- In.Spectra.Groups.AddUsersIntoTheGroup_002_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
